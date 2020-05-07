@@ -113,8 +113,6 @@ Tesseract.recognize(myImage, {
 ```
 
 
-
-
 ## Tesseract.detect(image: [ImageLike](#imagelike)) -> [TesseractJob](#tesseractjob)
 
 Figures out what script (e.g. 'Latin', 'Chinese') the words in  image are written in.
@@ -287,7 +285,7 @@ Then, `cd tesseract.js && npm install && npm start`
 
 ```
 
-Then open `http://localhost:7355/examples/file-input/demo.html` in your favorite browser. The devServer automatically rebuilds `tesseract.js` and `tesseract.worker.js` when you change files in the src folder.
+Then open `http://localhost:7355/examples/file-input/bas.html` in your favorite browser. The devServer automatically rebuilds `tesseract.js` and `tesseract.worker.js` when you change files in the src folder.
 
 ### Building Static Files
 After you've cloned the repo and run `npm install` as described in the [Development Section](#development), you can build static library files in the dist folder with
